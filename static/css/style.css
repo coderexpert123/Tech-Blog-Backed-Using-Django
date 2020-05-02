@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*basic style*/
+
+body, h1, h2, h3, h4, p, ul, ol, form, fieldset, figure {
+	margin: 0;
+	padding: 0;
+}
+div, figure, img, input, button{
+	box-sizing: border-box;
+}
+body {
+	background-color: #f5f5f5;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+img {
+
+	max-width: 100%;
+}
+ul, ol {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+.hidden {
+	display: none;
+}
+.clearfix:after {
+	content: '.';
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+
+
+/* Advertise start */
+#adver {
+
+	margin: 0 auto;
+
+	position: relative;
+}
+#adver .center {
+
+	background-color: #000;
+
+	position: absolute;
+
+
+}
+#adver .copy {
+	opacity: 1;
+	background-color: transparent;
+	padding: 3px;
+}
+
+/* Advertise end */
+
